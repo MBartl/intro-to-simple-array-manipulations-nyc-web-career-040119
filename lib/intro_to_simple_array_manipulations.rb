@@ -13,13 +13,13 @@ end
 def pop_with_args(array)
   temparray = []
   2.times do
-    temparray.push(array.pop)
+    temparray.unshift(array.pop)
   end
   return temparray
 end
 
 def using_shift(array)
-  tempvar = shift[0]
+  tempvar = array[0]
   array.shift
   return tempvar
 end
