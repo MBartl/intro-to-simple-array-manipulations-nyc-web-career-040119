@@ -15,5 +15,8 @@ def pop_with_args(array)
   2.times do
     temparray.push(array.pop)
   end
-  return 
+  return temparray
+end
+
+
   
