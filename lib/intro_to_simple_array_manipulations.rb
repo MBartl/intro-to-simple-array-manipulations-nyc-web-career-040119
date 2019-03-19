@@ -37,7 +37,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, newelement)
-  array.insert(newelement, 3)
+  array.insert(3, newelement)
 end
 
 def using_uniq(array)
@@ -45,7 +45,7 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  to_str(array.flatten)
+  to_s(array.flatten)
 end
 
 def using_delete(array, string)
