@@ -25,7 +25,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  tempvar = [shift[0], shift[1]]
+  tempvar = [array[0], array[1]]
   2.times do 
     array.shift
   end
