@@ -18,5 +18,6 @@ def pop_with_args(array)
   return temparray
 end
 
-
+def using_shift(array)
+  array.shift
   
