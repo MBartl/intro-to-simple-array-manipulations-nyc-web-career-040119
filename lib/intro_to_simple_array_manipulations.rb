@@ -25,10 +25,13 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
+  tempvar = [shift[0], shift[1]]
   2.times do 
     array.shift
   end
+  return tempvar
 end
 
-
+def using_concat(array1, array2)
+  
   
