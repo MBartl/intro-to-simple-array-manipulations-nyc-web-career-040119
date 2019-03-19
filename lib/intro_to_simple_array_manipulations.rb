@@ -19,5 +19,16 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
+  tempvar = shift[0]
   array.shift
+  return tempvar
+end
+
+def shift_with_args(array)
+  2.times do 
+    array.shift
+  end
+end
+
+
   
