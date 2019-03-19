@@ -7,9 +7,13 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop
+  return array.pop
 end
 
 def pop_with_args(array)
-  
+  temparray = []
+  2.times do
+    temparray.push(array.pop)
+  end
+  return 
   
